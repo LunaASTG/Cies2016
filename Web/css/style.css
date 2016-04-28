@@ -1,0 +1,54 @@
+/*
+Theme Name: CIES
+Author: Adriana Torres
+Version: 1.0
+URL: http://lunaastg.tumblr.com/
+*/
+
+/* Table of Content
+==================================================
+  1. GENERAL
+  2. COMMON STYLES
+  3. NAV-MENU
+  4. HEADER
+  5. SECTION TESTIMONIAL
+  6. SECTION FEATURES
+  7. SECTION CALL TO ACTION
+  8. SECTION APPS SCREEN
+  9. SECTION FUN FACTS
+  10. SECTION DOWNLOAD
+  11. SECTION CONTACT
+  12. SECTION SUBSCRIBE
+  13. SECTION FOOTER
+
+*/
+
+/* 1. GENERAL*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+
+/* 2. COMMON STYLES */
+/* 3. NAV-MENU */
+.nav-menu {
+  background-color: #0bd8a2;
+}
+#nav-a{
+  color: white;
+  text-decoration: none;
+}
+@media(min-width:768px) {
+
+}
+/* 4. HEADER */
