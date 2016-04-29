@@ -14,9 +14,8 @@
     <!-- bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- slider owl carousel -->
+    <!-- slider owl carousel  -->
     <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
 
     <!-- Font awesome -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -27,14 +26,25 @@
     <!-- responsive css -->
     <link href="css/responsive.css" rel="stylesheet">
 
-    <!-- responsive css -->
+    <!-- PrettyPhoto -->
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+
+    
   </head>
   <body>
     <header>
       <div class="nav-menu">
           <div class="nav-container">
             <div class="nav-brand">
-              <a href="#"></a>
+              <a href="#" class="brand"><img class="brand" src="img/cies.png" alt="cies logo" /></a>
             </div>
             <ul class="nav-bar">
               <li class="nav-item" ><a href="#" id="nav-a">¿Qué es CIES?</a></li>
@@ -44,7 +54,7 @@
             </ul>
           </div>
       </div>
-      <div class="slider-header">
+      <!--<div class="slider-header">
         <div id="demo" class="wow bounceInRight" data-wow-duration="1s">
           <div id="owl-demo" class="owl-carousel">
               <div class="item">
@@ -58,12 +68,57 @@
               </div>
             </div>
           </div>
+      </div>-->
+      <div class="owl-carousel">
+        <div class="item"><img src="img/photo1.jpg" alt="Foto 1" /></div>
+        <div class="item"><img src="img/photo2.jpg" alt="Foto 2" /></div>
+        <div class="item"><img src="img/photo3.jpg" alt="Foto 3" /></div>
+      </div>
       </div>
     </header>
+    <section class="sobre-section">
+      <div class="container">
+        <div class="sobre-title">
+          <h2>¿QUÉ ES CIES?</h2>
+        </div>
+        <div class="sobre-content">
+          <p>
+            Somos una asociación de jóvenes universitarios de diferentes universidades e
+            institutos, tanto públicos como privados, del estado de Michoacán; que buscan
+            ser un organismo interuniversitario que respalde e impulse el desarrollo integral
+            de todos nuestros iguales, vinculándolos, capacitándolos e impulsándolos en la
+            construcción de una sociedad de excelencia.
+          </p>
+          <div class="sobre-left">
+            <span class="left-image"><img src="img/photo6.jpg" alt="Miembros CIES" width="515" height="289.672"/></span>
+            <div class="left-content">
+              <h3>NUESTROS MIEMBROS</h3>
+              <p>Conoce a todos los jóvenes universitarios, lideres e innovadores que han formado parte de nosotros y
+                que con esfuerzo, dedicación y empeño, trabajan para hacer de CIES una de las asociaciones juveniles
+                universitarias más importantes e influyentes a nivel regional, estatal y nacional.
+              </p>
+              <a href="#">LEER MÁS</a>
+            </div>
+          </div>
+          <div class="sobre-right">
+            <span class="right-image"><img src="img/photo5.jpg" alt="Asamblea CIES" width="515" height="289.672"/></span>
+            <div class="right-content">
+              <h3>NUESTROS ANTECEDENTES</h3>
+              <p>Conoce nuestros inicios, proyectos y eventos que han formado parte de nuestra historia,
+                además del avance que ha tenido CIES a través de los años, gracias al esfuerzo y apoyo de
+                nuestros numerosos miembros y diversas empresas, organismos e instituciones gubernamentales.
+
+              </p>
+              <a href="#">LEER MÁS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <!-- scripts -->
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.js"></script>
+
+
+
   </body>
 </html>
