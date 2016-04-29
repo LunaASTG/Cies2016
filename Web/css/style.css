@@ -12,7 +12,7 @@ URL: http://lunaastg.tumblr.com/
   3. NAV-MENU
   4. HEADER SLIDER
   5. SOBRE SECTION
-  6. SECTION FEATURES
+  6. EVENTO SECTION
   7. SECTION CALL TO ACTION
   8. SECTION APPS SCREEN
   9. SECTION FUN FACTS
@@ -68,6 +68,7 @@ p {
   list-style: none;
   text-decoration: none;
   display: inline-block;
+  text-transform: uppercase;
 }
 @media(min-width:768px) {
   .nav-bar {
@@ -97,10 +98,35 @@ p {
     margin-top: 8%;
   }
 }
+.clearfix{
+	clear: both;
+}
 /* 4. HEADER SLIDER */
+.color-wrap{
+  position: relative;
+  background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+  width: auto;
+  height: 100%;
+  z-index: 950;
+}
+#slider{
+  position: relative;
+  z-index: 900;
+}
 /* 5. SOBRE SECTION */
+.line{
+  background-color: #99b836;
+  width: 50%;
+  height: 1px;
+  text-align: center;
+  margin-left: 26%;
+  margin-top: 5%
+}
 .sobre-section {
-  margin-top: 8%;
+  margin-top: 1%;
   background-color: #fff;
 }
 .sobre-title{
@@ -113,6 +139,7 @@ p {
   padding-top: 1px;
   padding-bottom: 10px;
   margin-left: 38%;
+  margin-top: 5%;
 }
 .sobre-title h2 {
   font-weight: 900;
@@ -224,3 +251,45 @@ p {
   background-color: #fff;
   border-color: #fff;
 }
+/** 6. EVENTO SECTION **/
+.evento-section {
+  margin-top: 2%;
+  height: 300px;
+}
+.parallax-window {
+    min-height: 300px;
+    background: transparent;
+}
+.brand-wrap{
+    position: relative;
+    margin-top: -24%;
+    margin-left: 40%;
+    width: 250px;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 500px;
+    text-align: center;
+    padding-left: 8px;
+}
+.brand-wrap:hover {
+  background-color: #436eaf;
+  .evento-brand {
+  }
+}
+.evento-brand{
+  width: 240px;
+  height: 260px;
+  background-image: url(../img/evento.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160px 140px;
+}
+.evento-brand:hover {
+  width: 240px;
+  height: 260px;
+  background-image: url(../img/eventoh.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 160px 140px;
+}
+/** 7. EVENTO INFORMATION **/

@@ -38,6 +38,8 @@
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/waypoints.min.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/parallax.min.js"></script>
 
     <!-- owl carousel function -->
     <script type="text/javascript">
@@ -66,30 +68,17 @@
             </ul>
           </div>
       </div>
-      <!--<div class="slider-header">
-        <div id="demo" class="wow bounceInRight" data-wow-duration="1s">
-          <div id="owl-demo" class="owl-carousel">
-              <div class="item">
-                  <a href="img/prueba1.jpg" rel="author"><img src="img/prueba1.jpg" width="1280" height="1024" alt="prueba1" /></a>
-              </div>
-              <div class="item">
-                  <a href="img/prueba2.jpg" rel="author"><img src="img/prueba2.jpg" width="1280" height="1024" alt="prueba2" /></a>
-              </div>
-              <div class="item">
-                  <a href="img/prueba3.jpg" rel="author"><img src="img/prueba3.jpg" width="1280" height="1024" alt="prueba3" /></a>
-              </div>
-            </div>
-          </div>
-      </div>-->
-      <div class="owl-carousel">
-        <div class="item"><img src="img/photo1.jpg" alt="Foto 1" height="800"/></div>
-        <div class="item"><img src="img/photo2.jpg" alt="Foto 2" height="800"/></div>
+      <div class="color-wrap">
+        <div class="owl-carousel" id="slider">
+          <div class="item"><img src="img/photo1.jpg" alt="Foto 1" height="800"/></div>
+          <div class="item"><img src="img/photo2.jpg" alt="Foto 2" height="800"/></div>
         <div class="item"><img src="img/photo3.jpg" alt="Foto 3" height="800"/></div>
-      </div>
+        </div>
       </div>
     </header>
     <section class="sobre-section">
       <div class="container">
+      <div class="line"></div>
         <div class="sobre-title">
           <h2>¿QUÉ ES CIES?</h2>
         </div>
@@ -104,7 +93,7 @@
           <div class="sobre-left">
             <span class="left-image"><img src="img/photo6.jpg" alt="Miembros CIES" width="515" height="289.672"/></span>
             <div class="left-content">
-              <h3>NUESTROS MIEMBROS</h3>
+              <h3>NUESTROS DELEGADOS</h3>
               <p>Conoce a todos los jóvenes universitarios, lideres e innovadores que han formado parte de nosotros y
                 que con esfuerzo, dedicación y empeño, trabajan para hacer de CIES una de las asociaciones juveniles
                 universitarias más importantes e influyentes a nivel regional, estatal y nacional.
@@ -119,18 +108,23 @@
               <p>Conoce nuestros inicios, proyectos y eventos que han formado parte de nuestra historia,
                 además del avance que ha tenido CIES a través de los años, gracias al esfuerzo y apoyo de
                 nuestros numerosos miembros y diversas empresas, organismos e instituciones gubernamentales.
-
               </p>
               <a href="#">LEER MÁS</a>
             </div>
           </div>
         </div>
+        <div class="line"></div>
+        <div class="clearfix"></div>
       </div>
     </section>
-
-  <!-- scripts -->
-
-
-
+    <section class="evento-section">
+      <div class="parallax-window" data-parallax="scroll" data-image-src="img/red.png"></div>
+      <div class="container">
+        <div class="brand-wrap"><div class="evento-brand"></div></div>
+      </div>
+    </section>
+    <section class="evento-information">
+      
+    </section>
   </body>
 </html>
