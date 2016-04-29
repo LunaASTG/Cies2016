@@ -100,6 +100,7 @@ p {
 /* 4. HEADER SLIDER */
 /* 5. SOBRE SECTION */
 .sobre-section {
+  margin-top: 8%;
   background-color: #fff;
 }
 .sobre-title{
@@ -217,4 +218,9 @@ p {
   border-width: 3px;
   padding: 10px 30px;
   margin-top: 2%;
+}
+.right-content a:hover {
+  color: #F79500;
+  background-color: #fff;
+  border-color: #fff;
 }
