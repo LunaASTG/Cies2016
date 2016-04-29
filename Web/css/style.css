@@ -13,7 +13,7 @@ URL: http://lunaastg.tumblr.com/
   4. HEADER SLIDER
   5. SOBRE SECTION
   6. EVENTO SECTION
-  7. SECTION CALL TO ACTION
+  7. OBJETIVOS SECTION
   8. SECTION APPS SCREEN
   9. SECTION FUN FACTS
   10. SECTION DOWNLOAD
@@ -273,10 +273,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 .brand-wrap:hover {
   background-color: #436eaf;
-  .evento-brand {
-  }
 }
-.evento-brand{
+.evento-brand {
   width: 240px;
   height: 260px;
   background-image: url(../img/evento.png);
@@ -292,4 +290,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   background-position: center;
   background-size: 160px 140px;
 }
-/** 7. EVENTO INFORMATION **/
+/** 7. OBJETOS SECTION **/
+.objetivos-section {
+  background-color: #436eaf;
+}
+.objetivos-title {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  color: #436eaf;
+  background-color: #fff;
+  width: 45%;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  margin-left: 26%;
+  margin-top: 5%;
+}
+.objetivos-title h2 {
+  font-weight: 900;
+}
+.objetivos-text{
+  margin-top: 6%;
+  color: #fff;
+  font-size: 20px;
+  text-align: justify;
+}
+.list-style {
+  margin-top: 6%;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+}
+.list-element {
+  width: 20%;
+  display: inline-block;
+  margin-right: 10%;
+  color: #fff;
+  margin-top: 0;
+}
+.list-element:last-child {
+  margin-right: 0;
+}
+.icon{
+  font-size: 60px;
+}
+.list-text{
+  margin-top: 8%;
+  font-size: 16px;
+}
