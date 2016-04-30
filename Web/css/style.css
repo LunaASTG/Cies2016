@@ -14,7 +14,7 @@ URL: http://lunaastg.tumblr.com/
   5. SOBRE SECTION
   6. EVENTO SECTION
   7. OBJETIVOS SECTION
-  8. SECTION APPS SCREEN
+  8. SHOW SECTION
   9. SECTION FUN FACTS
   10. SECTION DOWNLOAD
   11. SECTION CONTACT
@@ -291,6 +291,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   background-size: 160px 140px;
 }
 /** 7. OBJETOS SECTION **/
+.linew{
+  background-color: #fff;
+  width: 50%;
+  height: 1px;
+  text-align: center;
+  margin-left: 26%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 .objetivos-section {
   background-color: #436eaf;
 }
@@ -303,16 +312,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   width: 45%;
   padding-top: 1px;
   padding-bottom: 10px;
-  margin-left: 26%;
+  margin-left: 29%;
   margin-top: 5%;
 }
 .objetivos-title h2 {
   font-weight: 900;
 }
+.objetivos-row{
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
 .objetivos-text{
   margin-top: 6%;
   color: #fff;
   font-size: 20px;
+  font-weight: 700;
   text-align: justify;
 }
 .list-style {
@@ -322,19 +336,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   text-align: center;
 }
 .list-element {
-  width: 20%;
+  width: 30%;
+  height: 250px;
   display: inline-block;
-  margin-right: 10%;
+  margin-right: 2%;
   color: #fff;
   margin-top: 0;
+  padding-right: 2%;
+  border-right: solid;
 }
 .list-element:last-child {
   margin-right: 0;
+  border: none;
+  padding-right: 0;
 }
 .icon{
   font-size: 60px;
 }
 .list-text{
   margin-top: 8%;
-  font-size: 16px;
+  font-size: 17px;
 }
+/** SHOW SECTION **/
