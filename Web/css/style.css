@@ -14,8 +14,8 @@ URL: http://lunaastg.tumblr.com/
   5. SOBRE SECTION
   6. EVENTO SECTION
   7. OBJETIVOS SECTION
-  8. SHOW SECTION
-  9. SECTION FUN FACTS
+  8. PATRON SLIDER
+  9. SHOW SECTION
   10. SECTION DOWNLOAD
   11. SECTION CONTACT
   12. SECTION SUBSCRIBE
@@ -357,4 +357,61 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
   margin-top: 8%;
   font-size: 17px;
 }
+/** PATRON SLIDER **/
+.patron-title{
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  background-color: #F79500;
+  width: 45%;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  margin-left: 29%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.patron-title h2{
+  font-weight: 900;
+}
+.patron-slider{
+  height: 450px;
+}
+.patron-carousel{
+  margin-bottom: 5%;
+}
+.element{
+  width: 200px;
+  height: 200px;
+  background-color: #F79500;
+}
+@media(min-width:768px) {
+  .element {
+    margin-left: 60%;
+  }
+}
+@media(max-width:768px) {
+  .element {
+    margin-left: 10%;
+  }
+  }
 /** SHOW SECTION **/
+.show-section {
+  background-color: #99b836;
+}
+.show-title {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  color: #99b836;
+  background-color: #fff;
+  width: 45%;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  margin-left: 29%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.show-title h2 {
+  font-weight: 900;
+}

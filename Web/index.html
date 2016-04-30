@@ -47,11 +47,31 @@
     <!-- owl carousel function -->
     <script type="text/javascript">
     $(document).ready(function(){
-      $('.owl-carousel').owlCarousel({
+      $('.your-carousel').owlCarousel({
     items:1,
     loop:true,
     autoplay:true,
     autoplayTimeout:3000
+      });
+    });
+    $(document).ready(function(){
+      $('.patron-carousel').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:1000,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+    0:{
+        items:1
+    },
+    600:{
+        items:3
+    },
+    1000:{
+        items:5
+    }
+}
       });
     });
     </script>
@@ -72,7 +92,7 @@
           </div>
       </div>
       <div class="color-wrap">
-        <div class="owl-carousel" id="slider">
+        <div class="your-carousel" id="slider">
           <div class="item"><img src="img/photo1.jpg" alt="Foto 1" height="800"/></div>
           <div class="item"><img src="img/photo2.jpg" alt="Foto 2" height="800"/></div>
         <div class="item"><img src="img/photo3.jpg" alt="Foto 3" height="800"/></div>
@@ -168,9 +188,39 @@
         <div class="clearfix"></div>
       </div>
     </section>
+    <section class="patron-slider">
+      <div class="container">
+        <div class="patron-title">
+          <h2>NUESTROS PATROCINADORES</h2>
+        </div>
+      </div>
+      <div class="patron-carousel">
+        <div class="item element"></div>
+        <div class="item element"></div>
+        <div class="item element"></div>
+        <div class="item element"></div>
+        <div class="item element"></div>
+        <div class="item element"></div>
+        <div class="item element"></div>
+        <div class="item element"></div>
+        <div class="item element"></div>
+        <div class="item element"></div>
+        <div class="item element"></div>
+        <div class="item element"></div>
+      </div>
+      <div class="clearfix"></div>
+    </section>
     <section class="show-section">
       <div class="container">
-        
+        <div class="linew"></div>
+          <div class="show-title">
+              <h2>CONFERENCISTAS 2016</h2>
+          </div>
+          <div class="show-panel">
+
+          </div>
+        <div class="linew"></div>
+        <div class="clearfix"></div>
       </div>
     </section>
   </body>
