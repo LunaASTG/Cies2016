@@ -414,6 +414,7 @@ p {
   list-style: none;
   display: inline-block;
   width: 230px;
+  height: 230px;
   text-align: center;
   margin-left: 3px;
   margin-right: 3px;
@@ -421,9 +422,82 @@ p {
   border: solid 4px #fff;
   border-radius: 900px;
 }
+#c1:hover {
+  background-image: url(../img/conferencistas/danielh.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+#c3:hover {
+  background-image: url(../img/conferencistas/jimenah.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+#c4:hover {
+  background-image: url(../img/conferencistas/anah.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+#c5:hover {
+  background-image: url(../img/conferencistas/guillermoh.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+#c6:hover {
+  background-image: url(../img/conferencistas/juanh.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+#c7:hover {
+  background-image: url(../img/conferencistas/aiesech.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+#c8:hover {
+  background-image: url(../img/conferencistas/gruporeh.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+#c9:hover {
+  background-image: url(../img/conferencistas/alejandroh.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+#c10:hover {
+  background-image: url(../img/conferencistas/aracelih.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+#c11:hover {
+  background-image: url(../img/conferencistas/charlieh.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
+#c12:hover {
+  background-image: url(../img/conferencistas/bahighh.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
 .conferencistas img{
   width: 100%;
   height: 100%;
   border-radius: 900px;
-
+}
+.conferencistas p{
+  display: none;
+  position: relative;
+  margin-bottom:
+}
+.conferencistas img:hover {
+  opacity: 0;
 }

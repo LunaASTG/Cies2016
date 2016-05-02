@@ -83,11 +83,11 @@
         <input type="text" name="interest" value="i1">
         <h4 class="ask4">¿Conocías CIES Juvenil?</h4>
         <input type="text" name="cies" value="ciesr">
-        <h4 class="ask5">¿Te gustaría Integrarte a CIES Juvenil? ¿Por qué?</h4>
+        <h4 class="ask5">¿Te gustaría integrarte a CIES Juvenil? ¿Por qué?</h4>
         <input type="radio" name="like" value="likesi">Si<br>
         <input type="radio" name="like" value="likeno">No<br>
         <input type="text" name="like" value="likecomment">
-        <h4 class="ask6">¿Qué expectativas tienes del 6° encuentro Interuniversiario?</h4>
+        <h4 class="ask6">¿Qué expectativas tienes del 6° encuentro Interuniversitario?</h4>
         <input type="text" name="expect" value="expectative">
         <h4 class="ask7">¿Que temática te gustaría proponer para futuros eventos?</h4>
         <input type="text" name="theme" value="theme">

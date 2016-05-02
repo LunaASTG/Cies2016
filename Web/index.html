@@ -21,16 +21,16 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
 
     <!-- style css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css"/>
 
     <!-- responsive css -->
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet"/>
 
     <!-- Animate css -->
-    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/animate.min.css"/>
 
-    <!-- PrettyPhoto css -->
-    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <!-- Add fancyBox -->
+    <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.1.5"/>
 
     <!-- Script -->
     <script src="js/jquery-1.12.3.min.js"></script>
@@ -38,11 +38,13 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="js/parallax.js"></script>
     <script src="js/parallax.min.js"></script>
+    <script src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+    <script src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+
 
     <!-- owl carousel function -->
     <script type="text/javascript">
@@ -74,6 +76,9 @@
 }
       });
     });
+    $(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
     </script>
   </head>
   <body>
@@ -217,18 +222,18 @@
           </div>
           <div class="show-panel">
             <ul class="show-row">
-              <li class="conferencistas"><a href="#"><img src="img/conferencistas/daniel.png" alt="Daniel Gómez Íñiguez"></a></li>
-              <li class="conferencistas"><a href="#"><img src="img/conferencistas/fernando.png" alt="Fernando Lina" /></a></li>
-              <li class="conferencistas"><a href="#"><img src="img/conferencistas/jimena.png" alt="Jimena Pardo" /></a></li>
-              <li class="conferencistas"><a href="#"><img src="img/conferencistas/ana.png" alt="Ana Laura Lozano" /></a></li>
-              <li class="conferencistas"><a href="#"><img src="img/conferencistas/guillermo.png" alt="Guillermo Asiain" /></a></li>
-              <li class="conferencistas"><a href="#"><img src="img/conferencistas/juan.png" alt="Juan del Cerro" /></a></li>
-              <li class="conferencistas"><a href="#"><img src="img/conferencistas/aiesec.png" alt="AIESEC" /></a></li>
-              <li class="conferencistas"><a href="#"><img src="img/conferencistas/grupore.png" alt="Grupo RE" /></a></li>
-              <li class="conferencistas"><a href="#"><img src="img/conferencistas/alejandro.png" alt="Alejandro Martínez" /></a></li>
-              <li class="conferencistas"><a href="#"><img src="img/conferencistas/araceli.png" alt="Araceli Campos" /></a></li>
-              <li class="conferencistas"><a href="#"><img src="img/conferencistas/charlie.png" alt="Charlie García Cancino" /></a></li>
-              <li class="conferencistas"><a href="#"><img src="img/conferencistas/bahigh.png" alt="Bahigh Acuña" /></a></li>
+              <li class="conferencistas" id="c1"><a class="fancybox" rel="group" href="img/conferencistas/content1.jpg"><img src="img/conferencistas/daniel.png" alt="Daniel Gómez Íñiguez"><p>Daniel</p></a></li>
+              <li class="conferencistas" id="c2"><a class="fancybox" rel="group" href="#"><img src="img/conferencistas/fernando.png" alt="Fernando Lina" /></a></li>
+              <li class="conferencistas" id="c3"><a class="fancybox" rel="group" href="#"><img src="img/conferencistas/jimena.png" alt="Jimena Pardo" /></a></li>
+              <li class="conferencistas" id="c4"><a href="#"><img src="img/conferencistas/ana.png" alt="Ana Laura Lozano" /></a></li>
+              <li class="conferencistas" id="c5"><a href="#"><img src="img/conferencistas/guillermo.png" alt="Guillermo Asiain" /></a></li>
+              <li class="conferencistas" id="c6"><a href="#"><img src="img/conferencistas/juan.png" alt="Juan del Cerro" /></a></li>
+              <li class="conferencistas" id="c7"><a href="#"><img src="img/conferencistas/aiesec.png" alt="AIESEC" /></a></li>
+              <li class="conferencistas" id="c8"><a href="#"><img src="img/conferencistas/grupore.png" alt="Grupo RE" /></a></li>
+              <li class="conferencistas" id="c9"><a href="#"><img src="img/conferencistas/alejandro.png" alt="Alejandro Martínez" /></a></li>
+              <li class="conferencistas" id="c10"><a href="#"><img src="img/conferencistas/araceli.png" alt="Araceli Campos" /></a></li>
+              <li class="conferencistas" id="c11"><a href="#"><img src="img/conferencistas/charlie.png" alt="Charlie García Cancino" /></a></li>
+              <li class="conferencistas" id="c12"><a href="#"><img src="img/conferencistas/bahigh.png" alt="Bahigh Acuña" /></a></li>
             </ul>
           </div>
         <div class="linew"></div>
