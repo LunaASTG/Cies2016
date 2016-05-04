@@ -428,6 +428,12 @@ p {
   background-repeat: no-repeat;
   border: none;
 }
+#c2:hover {
+  background-image: url(../img/conferencistas/fernandoh.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+}
 #c3:hover {
   background-image: url(../img/conferencistas/jimenah.png);
   background-size: cover;
@@ -471,7 +477,7 @@ p {
   border: none;
 }
 #c10:hover {
-  background-image: url(../img/conferencistas/aracelih.png);
+  background-image: url(../img/conferencistas/karenh.png);
   background-size: cover;
   background-repeat: no-repeat;
   border: none;
@@ -500,4 +506,32 @@ p {
 }
 .conferencistas img:hover {
   opacity: 0;
+}
+.download {
+  text-align: center;
+  list-style: none;
+  margin-top: 5%;
+}
+.download li{
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  border-bottom: solid 4px #f1f1f1;
+  display: inline-block;
+  margin-right: 1%;
+}
+.download:last-child {
+  margin-right: 0;
+}
+.download li:hover {
+  background-color: #f1f1f1;
+  border-bottom: solid 4px #444444;
+}
+.download a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 900;
+  color: #99b836;
+  margin: 4px;
 }
