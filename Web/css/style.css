@@ -16,10 +16,7 @@ URL: http://lunaastg.tumblr.com/
   7. OBJETIVOS SECTION
   8. PATRON SLIDER
   9. SHOW SECTION
-  10. SECTION DOWNLOAD
-  11. SECTION CONTACT
-  12. SECTION SUBSCRIBE
-  13. SECTION FOOTER
+  10. FOOTER SECTION
 
 */
 
@@ -145,18 +142,19 @@ p {
   text-align: justify;
 }
 .sobre-left {
-  height: 290px;
+  height: 288px;
   margin-top: 5%;
   background-color: #2a6496;
 }
 .left-image{
-  width: 50%;
   padding: 0;
   margin: 0;
   position: relative;
 }
 .left-image img{
   float:left;
+  width: 45%;
+  height: auto;
 }
 .left-content {
   position: relative;
@@ -171,6 +169,7 @@ p {
   color: #fff;
   font-size: 16px;
   width: 50%;
+  height: auto;
   float: right;
   margin-right: 2%;
   text-align: justify;
@@ -186,7 +185,7 @@ p {
   border-radius: 18px;
   border-width: 3px;
   padding: 10px 30px;
-  margin-top: 2%;
+
 }
 .left-content a:hover {
   color: #2a6496;
@@ -194,7 +193,7 @@ p {
   border-color: #fff;
 }
 .sobre-right {
-  height: 290px;
+  height: 288px;
   margin-top: 5%;
   background-color: #F79500;
 }
@@ -206,6 +205,7 @@ p {
 }
 .right-image img{
   float:right;
+  height: 100%;
 }
 .right-content {
   position: relative;
@@ -219,9 +219,9 @@ p {
 .right-content p{
   color: #fff;
   font-size: 16px;
-  width: 50%;
+  width: 55%;
   float: left;
-  margin-left: 2%;
+  margin-left: 3%;
   text-align: justify;
   margin-bottom: 6%;
 }
@@ -534,4 +534,59 @@ p {
   font-weight: 900;
   color: #99b836;
   margin: 4px;
+}
+/** FOOTER SECTION **/
+.footer{
+  background-color: #1c1c1c;
+  color: white;
+}
+.footer-title{
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  color: #fff;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.footer-title h2{
+  font-weight: 900;
+  text-align: center;
+}
+.contacto-row{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.contacto{
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 0;
+  width: 15%;
+  margin-right: 35%;
+}
+.contacto:last-child {
+  margin-right: 0;
+}
+.gen {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 5%;
+}
+.media li {
+  margin: -5%;
+}
+.social li {
+  list-style: none;
+  text-decoration: none;
+  margin-bottom: 5%;
+}
+.social li:last-child {
+  margin-bottom: 3%;
+}
+.social a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
 }

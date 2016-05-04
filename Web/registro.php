@@ -94,12 +94,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Registro CIES 2016</title>
-    <!-- style css -->
-    <link rel="stylesheet" href="css/style.css">
+		<!-- google fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
-    <!-- responsive css -->
-    <link href="css/responsive.css" rel="stylesheet">
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="img/favicon.png" />
+
+		<!-- bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- style css -->
+		<link rel="stylesheet" href="css/style.css"/>
+
+		<!-- responsive css -->
+		<link href="css/responsive.css" rel="stylesheet"/>
+
+		<!-- Script -->
+		<script src="js/jquery-1.12.3.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
   </head>
   <body>
     <header>
