@@ -592,3 +592,39 @@ p {
   font-size: 20px;
 }
 /** ANTECEDENTES SECTION **/
+.antecedentes-section{
+  background-color: #d27f00;
+}
+.item-container h5{
+  color:#fff;
+  font-weight: 900;
+  text-align: center;
+}
+.item-container p {
+  color:#fff;
+  text-align: justify;
+}
+@media (min-width:768px) {
+  .item-container{
+    height: 600px;
+    margin-top: 15%;
+  }
+  .item-container h5{
+    font-size: 22px;
+  }
+  .item-container p {
+    margin-top: 5%;
+    font-size: 18px;
+  }
+  .img{
+    height: 45%;
+    border-radius: 10px;
+  }
+}
+@media (max-width:768px) {
+  .item-container{
+    height: 300px;
+    margin-top: 7%;
+  }
+
+}
