@@ -13,6 +13,9 @@
     <!-- bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Font awesome css -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+
     <!-- style css -->
     <link rel="stylesheet" href="css/style.css"/>
 
@@ -41,5 +44,32 @@
           </div>
       </div>
     </header>
+    <section class="miembros-section">
+      <div class="container">
+
+      </div>
+    </section>
+    <section class="footer" id="contacto">
+      <div class="container">
+        <div class="footer-title">
+            <h2>CONTACTO</h2>
+        </div>
+        <ul class="contacto-row">
+          <li class="contacto">
+            <ul class="media">
+              <li><i class="fa fa-phone gen" aria-hidden="true"></i><h6 class="gen">(443)-314-3823</h6></li>
+              <li><i class="fa fa-envelope-o gen" aria-hidden="true"></i><h6 class="gen">cieshotmcial.com</h6></li>
+              <li><i class="fa fa-building gen" aria-hidden="true"></i><h6 class="gen">Ecuador #215</h6></li>
+            </ul>
+          </li>
+          <li class="contacto">
+            <ul class="social">
+              <li><a href="http://www.facebook.com/ciesjuvenil/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="http://www.twitter.com/CIESjuvenilAC"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
   </body>
 </html>
