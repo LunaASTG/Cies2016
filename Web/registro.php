@@ -164,7 +164,6 @@
 			<input type="radio" name="universidad" value="umsnh" checked>Universidad Michoacana de San Nicolás de Hidalgo<br>
 			<input type="radio" name="universidad" value="uvaq">Universidad Vasco de Quiroga<br>
 			<input type="radio" name="universidad" value="itm">Instituto Tecnológico de Morelia<br>
-			<input type="radio" name="universidad" value="unla">Universidad Latina de América<br>
 			<input type="radio" name="universidad" value="udem">Universidad de Morelia<br>
 			<input type="radio" name="universidad" value="utm">Universidad Tecnológica de Morelia<br>
 			<input type="radio" name="universidad" value="uid">Universidad Interamericana para el Desarrollo<br>
@@ -175,17 +174,17 @@
 			<input type="radio" name="universidad" value="tecnm">Tecnológico Nacional de México<br>
 			<input type="radio" name="universidad" value="otra">Otra Institución o Universidad: <input type="text" name="otrauniversidad"><br>
         <h3>Selecciona el taller de tu preferencia:</h3>
-        <h4 class="taller-title">Taller (Primera Intervención)</h4>
+        <h4 class="taller-title">Taller (Primera Intervención) 10:00-11:50 AM</h4>
         <input type="radio" name="taller1" value="1" checked>SALA 1. Jimena Pardo, CEO de Carrot . “Compartiendo la innovación ”<br>
         <input type="radio" name="taller1" value="2">SALA 2. Ana Laura Lozano, Escuela de Activistas . “Ecocidio en Michoacán”<br>
         <input type="radio" name="taller1" value="3">SALA 3. Juan del Cerro, Socialab. “Hablemos de Emprendimiento”<br>
         <input type="radio" name="taller1" value="4">SALA 4. Guillermo Asiain, CEO de Level UP. “Workshop liderazgo colaborativo”<br>
-        <input type="radio" name="taller1" value="5">SALA 5. Daniel Gómez Íñiguez, CEO Industrias SOLBEN . “El arte de emprender”<br>
+        <input type="radio" name="taller1" value="5">SALA 5. Luis Fernando Lina, Helidroid. “Generación de mapas aéreos con drones”<br>
         <input type="radio" name="taller1" value="6">SALA 6. Pavel Lau y Karla Reyes, GRUPO Re. “Liderazgo social”<br>
-        <input type="radio" name="taller1" value="7">SALA 7. Mayteck Arenas, AIESEC, “Movilidad universitaria<br>
+        <input type="radio" name="taller1" value="7">SALA 7. Mayteck Arenas, AIESEC, “Movilidad universitaria"<br>
         <input type="radio" name="taller1" value="8">SALA 8. Alejandro Martínez, Microsoft. “Programando tecnología disruptiva”<br>
         <input type="radio" name="taller1" value="9">SALA 9. Ana Karen Ramírez, Epic Queen. “Crear una idea desde cero”<br>
-        <h4 class="taller-title">Taller (Segunda Intervención)</h4>
+        <h4 class="taller-title">Taller (Segunda Intervención) 1:30-3:30 PM</h4>
         <input type="radio" name="taller2" value="1" checked>SALA 1. Jimena Pardo, CEO de Carrot . “Compartiendo la innovación ”<br>
         <input type="radio" name="taller2" value="2">SALA 2. Ana Laura Lozano, Escuela de Activistas . “Ecocidio en Michoacán”<br>
         <input type="radio" name="taller2" value="3">SALA 3. Juan del Cerro, Socialab. “Hablemos de Emprendimiento”<br>
@@ -205,8 +204,8 @@
 			<input type="checkbox" name="event4" value="4to">4° Encuentro Interuniversitario “De la Acción al Cambio”<br>
 			<input type="checkbox" name="event5" value="5to">5° Encuentro Interuniversitario “Generación sin Miedo, Cambiando Michoacán”<br>
         <h4 class="ask3">¿Qué te interesó de los encuentros anteriores?</h4>
-        <input type="text" name="interesanteanteriores" value="i1">
-        <h4 class="ask4">¿Conocías CIES Juvenil?</h4>
+        <input type="text" name="interesanteanteriores" value="">
+        <h4 class="ask4">¿Cómo te enteraste de CIES Juvenil?</h4>
         <input type="text" name="cies" value="">
         <h4 class="ask5">¿Te gustaría integrarte a CIES Juvenil? ¿Por qué?</h4>
 			<input type="radio" name="integrartecies" value="Si" checked>Si<br>

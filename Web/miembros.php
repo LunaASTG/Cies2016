@@ -46,7 +46,28 @@
     </header>
     <section class="miembros-section">
       <div class="container">
+        <div class="miembros-part1">
+          <h2>MESA DIRECTIVA 2015-2016</h2>
+          <ul class="list-1">
+            <li>Oscar Ivann Garduño Orozco<br>Presidente</li>
+            <li>Cristina Dayane Reyna Orozco<br>Vicepresidenta</li>
+            <li>Santiago Herrera Díaz<br>Vicepresidente</li>
+            <li>Jorge Osnaya González<br>Secretario General</li>
+            <li>Luis Emilio Ponce Santoyo<br>Tesorero</li>
+          </ul>
+        </div>
+        <div class="miembros-part2">
+          <h2>DELEGADOS UNIVERSITARIOS CIES</h2>
+          <ul class="list-2">
 
+          </ul>
+        </div>
+        <div class="miembros-part3">
+          <h2>CONSEJEROS CIES</h2>
+          <ul class="list-2">
+
+          </ul>
+        </div>
       </div>
     </section>
     <section class="footer" id="contacto">
@@ -58,8 +79,8 @@
           <li class="contacto">
             <ul class="media">
               <li><i class="fa fa-phone gen" aria-hidden="true"></i><h6 class="gen">(443)-314-3823</h6></li>
-              <li><i class="fa fa-envelope-o gen" aria-hidden="true"></i><h6 class="gen">cieshotmcial.com</h6></li>
-              <li><i class="fa fa-building gen" aria-hidden="true"></i><h6 class="gen">Ecuador #215</h6></li>
+              <li><i class="fa fa-envelope-o gen" aria-hidden="true"></i><h6 class="gen">ciesjuvenilac@gmail.com</h6></li>
+              <li><i class="fa fa-building gen" aria-hidden="true"></i><h6 class="gen">Ecuador #235, Fracc. Las Américas</h6></li>
             </ul>
           </li>
           <li class="contacto">
