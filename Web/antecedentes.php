@@ -144,7 +144,6 @@
             <ul class="media">
               <li><i class="fa fa-phone gen" aria-hidden="true"></i><h6 class="gen">(443)-314-3823</h6></li>
               <li><i class="fa fa-envelope-o gen" aria-hidden="true"></i><h6 class="gen">ciesjuvenilac@gmail.com</h6></li>
-              <li><i class="fa fa-building gen" aria-hidden="true"></i><h6 class="gen">Ecuador #235, Fracc. Las Américas</h6></li>
             </ul>
           </li>
           <li class="contacto">
