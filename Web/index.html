@@ -76,6 +76,26 @@
 }
       });
     });
+    $(document).ready(function(){
+      $('.patroni-carousel').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:1000,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+    0:{
+        items:1
+    },
+    600:{
+        items:3
+    },
+    1000:{
+        items:5
+    }
+}
+      });
+    });
     $(document).ready(function() {
 		$(".fancybox").fancybox();
 	});
@@ -246,8 +266,24 @@
         <div class="clearfix"></div>
       </div>
     </section>
-    <!--<section class="patroni-section">
-    </section>-->
+    <section class="patroni-section">
+      <div class="container">
+        <div class="patroni-title">
+          <h2>PATRONICADORES Y EMPRESAS CO-ORGANIZADORAS</h2>
+        </div>
+      </div>
+      <div class="patroni-carousel">
+        <div class="item element"><img src="img/patrocinadores/logo1.png" alt="Cámara de diputados del estado" /></div>
+        <div class="item element"><img src="img/patrocinadores/logo2.png" alt="CEITM AC" /></div>
+        <div class="item element"><img src="img/patrocinadores/logo3.png" alt="FETEM" /></div>
+        <div class="item element"><img src="img/patrocinadores/logo4.png" alt="Gobierno del Estado de Michoacán" /></div>
+        <div class="item element"><img src="img/patrocinadores/logo5.png" alt="Gobierno Municipal de Morelia" /></div>
+        <div class="item element"><img src="img/patrocinadores/logo6.png" alt="Instituto de la Juventud Moreliana" /></div>
+        <div class="item element"><img src="img/patrocinadores/logo7.png" alt="Secretaría de Turismo de Michoacán" /></div>
+        <div class="item element"><img src="img/patrocinadores/logo8.png" alt="Instituto de la Juventud Michoacana" /></div>
+        <div class="item element"><img src="img/patrocinadores/logo9.png" alt="Logística y Convenciones de Michoacán" /></div>
+      </div>
+    </section>
     <section class="footer" id="contacto">
       <div class="container">
         <div class="footer-title">
